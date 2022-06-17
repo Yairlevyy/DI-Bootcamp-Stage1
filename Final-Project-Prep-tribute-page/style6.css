@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: fantasy, sans-serif;
+}
+
+body {
+	background-image: url(https://media.torah-box.net/rav-ovadia-yossef-2520.jpg);
+	background-size: cover;
+}
+
+
+main a {
+	text-decoration: none;
+	color: white;
+	background-color: #F7CE68;
+	font-size: 40px;
+	border: white solid 3px ;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+	top: 600px;
+	left: 1200px;
+	transition: all 0.5s ease;
+}
+
+main a:hover {
+	background-color: #F59D6C ;
+	color: #F7CE68;
+	padding: 10px;
+}
+

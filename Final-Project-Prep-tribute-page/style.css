@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: fantasy, sans-serif;
+}
+
+body {
+	background-image: url(https://ci4.googleusercontent.com/proxy/6gJ6CR6gHZuUV644ZSS1UL7-J-6rOGaqy7eovIcajRykDMjcRnvVOtBzcOe4zKOGR3HR-JfJRE620-Och4zq_UQQXlIYMX7NO-71OWa45lZAuJguQNGnKGEsiCFWc6Ve4UXafyeO99A7IH0zKPki9MEf=s0-d-e1-ft#https://upload.wikimedia.org/wikipedia/commons/2/26/Ovadia_Yosef_as_a_child_with_his_family.jpg);
+	
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 10px;
+	background-color: #f59d6c;
+	background-image: linear-gradient(62deg, #f59d6c 0%, #F7CE68 53%);
+
+	color: white;
+	border-radius: 5px;
+}
+
+#logo {
+	margin-left: 7px;
+	font-size: 35px;
+	font-style: italic;
+	transition: all 0.5s ease;
+
+}
+
+#logo:hover {
+	cursor: pointer;
+}
+
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin: 5px 10px;
+	border: 3px solid white;
+	border-radius: 5px;
+	padding: 5px;
+	transition: all 0.5s ease;
+}
+
+nav a:hover {
+	cursor: pointer;
+	color:  #F7CE68;
+	background-color: #F59D6C;
+	border: 3px solid white;
+	transform: scale(1.1);
+}
+
+.container {
+	font-size: 20px;
+	display: inline-block;
+	background: rgb(2,0,36);
+	background: linear-gradient(62deg, #f59d6c 0%, #F7CE68 53%);
+	border-radius: 5px;
+	margin: 10px;
+	transition: all 0.5s ease;
+	padding: 10px;
+	text-align: justify;
+
+}
+
+.container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+#container {
+	position: relative;
+	width: 350px;
+	left: 300px;
+
+}
+
+#containertwo {
+	position: relative;
+	width: 750px;
+	left: 700px;
+}
+
+#containerthree {
+	position: relative;
+	width: 550px;
+	left: 200px;
+	top: 30px;
+}
+
+
